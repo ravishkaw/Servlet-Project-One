@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <!-- bootstrap -->
+        <link
+                href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+                rel="stylesheet"
+                integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+                crossorigin="anonymous"
+        />
+        <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+                crossorigin="anonymous"
+        ></script>
+
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="card" style="margin-top: 2rem">
+                        <div class="card-body">
+                            <h2 class="card-title">Sign Up</h2>
+
+                            <form action="/ServletProjectOne_war_exploded/employee" method="post">
+
+                                <label for="firstname" class="form-label">First Name</label>
+                                <input type="text" name="firstname_ui" id="firstname" class="form-control">
+
+                                <label for="lastname" class="form-label">Last Name</label>
+                                <input type="text" name="lastname_ui" id="lastname" class="form-control">
+
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" name="email_ui" id="email" class="form-control">
+
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" name="username_ui" id="username" class="form-control">
+
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" name="password_ui" id="password" class="form-control">
+
+                                <br>
+                                <label for="terms"></label>
+                                <input type="checkbox" name="terms_ui" id="terms"> I agree with the <a href="#">Terms and
+                                Conditions</a>
+                                <br>
+                                <br>
+
+                                <div class="me-auto">
+                                    <input type="reset" value="Clear" class="btn btn-warning">
+                                    <input type="submit" value="Sign up" class="btn btn-primary">
+                                </div>
+
+                            </form>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
